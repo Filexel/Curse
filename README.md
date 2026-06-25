@@ -1,4 +1,4 @@
-Curse
+# Curse
 Install on Linux Mint, Ubuntu, Debian:
 
 apt install wget -y (если нет)
