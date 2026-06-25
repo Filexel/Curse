@@ -7,12 +7,12 @@ wget https://raw.githubusercontent.com/Filexel/Curse-Android/main/Utils/Exit.sh
 wget https://raw.githubusercontent.com/Filexel/Curse-Android/main/Utils/Start.sh
 
 # Копируем в bin
-cp Start.sh /usr/bin/curse-start
-cp Exit.sh /usr/bin/curse-exit
+sudo cp Start.sh /usr/bin/curse-start
+sudo cp Exit.sh /usr/bin/curse-exit
 
 # Даём права на выполнение
-chmod +x /usr/bin/curse-start
-chmod +x /usr/bin/curse-exit
+sudo chmod +x /usr/bin/curse-start
+sudo chmod +x /usr/bin/curse-exit
 
 echo "Установка завершена!"
 echo "curse-start — Запустить Curse Shell"
